@@ -64,6 +64,8 @@ function correlateCaffeineToFocus(data) {
   console.log(`Average focus without caffeine: ${avgWithout.toFixed(1)}`);
 }
 
+//Added mostFrequentMood function
+
 function mostFrequentMood(data) {
   const moodCounts = {};
 
